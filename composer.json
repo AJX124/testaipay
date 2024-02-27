@@ -1,0 +1,18 @@
+{
+    "name": "ajaygawade/testaipay",
+    "description": "Testing",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-0": {
+            "NDPS": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ajay"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
