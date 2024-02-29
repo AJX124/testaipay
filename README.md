@@ -52,7 +52,6 @@ Official AIPAY-CorePHP library of NTT DATA Payment Service.
         $transactionRequest = new \NDPS\TransactionRequest();
 
         $merchTxnId = uniqId();
-        $returnURL = "http://localhost/AIPAY-CorePHP/response.php"; // Your return URL for response handling
 
         /*
         *Setting all values here
