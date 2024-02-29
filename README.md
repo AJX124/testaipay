@@ -1,4 +1,4 @@
-# NDPS-Dev/corephp
+# NDPS-Dev/aipay-corephp
 Official AIPAY-CorePHP library of NTT DATA Payment Service.
 
 ## Prerequisites
