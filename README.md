@@ -52,25 +52,21 @@ Official AIPAY-CorePHP library of NTT DATA Payment Service.
         $transactionRequest = new \NDPS\TransactionRequest();
 
         $merchTxnId = uniqId();
-        $merchId = "8952"; // Id provided by NDPS
-        $custEmail = "Test@ndps.com";
-        $custMobNo = "8989898989";
-        $amount = "10.00";
         $returnURL = "http://localhost/AIPAY-CorePHP/response.php"; // Your return URL for response handling
 
         /*
         *Setting all values here
         */
-        $transactionRequest->setMerchId($merchId);
+        $transactionRequest->setMerchId("8952");  // Id provided by NDPS
         $transactionRequest->setPassword("Test@123");
         $transactionRequest->setMerchTxnId($merchTxnId);
         $transactionRequest->setMerchTxnDate("2021-09-04 20:46:00");
-        $transactionRequest->setAmount($amount);
+        $transactionRequest->setAmount("10.00");
         $transactionRequest->setProduct("NSE");
         $transactionRequest->setCustAccNo("213232323");
         $transactionRequest->setTxnCurrency("INR");
-        $transactionRequest->setCustEmail($custEmail);
-        $transactionRequest->setCustMobile($custMobNo);
+        $transactionRequest->setCustEmail("Test@ndps.com");
+        $transactionRequest->setCustMobile("8989898989");
         $transactionRequest->setUDF1("udf1");
         $transactionRequest->setUDF2("udf2");
         $transactionRequest->setUDF3("udf3");
