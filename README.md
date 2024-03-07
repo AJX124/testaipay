@@ -78,8 +78,8 @@ Official AIPAY-CorePHP library of NTT DATA Payment Service.
         //To get the atomTokenId
         $atomTokenId = $transactionRequest->getAtomtokenId(); 
   ```
-  - To handle the respose part on return URL.
-  - To handle the response use below function which will return the final response array.
+- To handle the respose part on return URL.
+- To handle the response use below function which will return the final response array.
   ```
        include_once 'vendor/autoload.php';
        $ndpsenc = new \NDPS\AtomAES();
